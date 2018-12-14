@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>GraphiQL</id>
+    <version>1.2.0</version>
+    <title>GraphiQL ASP.NET Core Middleware</title>
+    <authors>JosephWoodward</authors>
+    <owners>JosephWoodward</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/JosephWoodward/graphiql-dotnet/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JosephWoodward/graphiql-dotnet</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/JosephWoodward/graphiql-dotnet/master/assets/logo_128_128.png</iconUrl>
+    <description>GraphiQL available as middleware for ASP.NET Core</description>
+    <tags>graphql,graphiql,asp.net core,.net core</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Composite" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.FileProviders.Embedded" version="2.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
